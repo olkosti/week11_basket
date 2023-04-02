@@ -10,11 +10,12 @@ h2 {
 .basket__title,
 .basket__container {
     margin-left: 100px;
+    max-width: 70%;
 }
 .basket__product {
-    max-width: 1000px;
+    
     display: grid;
-    grid-template-columns: 300px 500px 200px;
+    grid-template-columns: 300px 3fr 1fr;
     grid-template-rows: 1fr;
     border: 1px solid black;
 }
@@ -33,10 +34,27 @@ h2 {
     font-weight: 700;
     font-size: 24px;
 }
+.basket__total {
+    display: flex;
+    justify-content: space-between;
+}
 .basket__button {
     margin: 50px 0 100px 0;
     height: 50px;
     background-color: rgb(40, 39, 39);
     color: white;
     padding: 0 20px;
+    font-weight: 600;
+}
+.basket__amount {
+    margin: 30px 0 0 0;
+    padding: 0 20px;
+}
+.amount__title {
+    text-align: right;
+}
+.amount__sum {    
+    color: blue;
+    font-weight: 700;
+    font-size: 30px;
 }
