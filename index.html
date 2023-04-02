@@ -6,10 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 
 <body>
+    <h1 class="basket__title">Корзина</h1>
+    <div class="basket__container">
+        <div class="basket__product">
+            <div class="basket__foto">
+                <img src="assets/images/jacket.jpg" alt="Куртка">
+            </div>
+            <div class="basket__description description">
+                <h2 class="description__title">Куртка</h2>
+                <p class="description__text">Цвет: черный</p>
+                <p class="description__text">Размер: S</p>
+                <p class="description__text">Количество: 1</p>
+            </div>
+            <div class="basket__price" id="jacket"><span class="price" id="jacket_price">4999</span> руб.</div>
+        </div>
+        <div class="basket__product">
+            <div class="basket__foto">
+                <img src="assets/images/blouse.jpg" alt="Блузка">
+            </div>
+            <div class="basket__description description">
+                <h2 class="description__title">Блузка</h2>
+                <p class="description__text">Цвет: фиолетовый</p>
+                <p class="description__text">Размер: S</p>
+                <p class="description__text">Количество: 1</p>
+            </div>
+            <div class="basket__price" id="blouse"><span class="price" id="blouse_price">1999</span> руб.</div>
+        </div>
+        <div class="basket__product">
+            <div class="basket__foto">
+                <img src="assets/images/dress.jpg" alt="Платье">
+            </div>
+            <div class="basket__description description">
+                <h2 class="description__title">Платье</h2>
+                <p class="description__text">Цвет: черный</p>
+                <p class="description__text">Размер: S</p>
+                <p class="description__text">Количество: 1</p>
+            </div>
+            <div class="basket__price" id="dress"><span class="price" id="dress_price">1999</span> руб.</div>
+        </div>
+        <div class="basket__product">
+            <div class="basket__foto">
+                <img src="assets/images/trousers.jpg" alt="Брюки">
+            </div>
+            <div class="basket__description description">
+                <h2 class="description__title">Брюки</h2>
+                <p class="description__text">Цвет: черный</p>
+                <p class="description__text">Размер: S</p>
+                <p class="description__text">Количество: 1</p>
+            </div>
+            <div class="basket__price" id="trousers"><span class="price" id="trousers_price">2599</span> руб.</div>
+        </div>
+        <button class="basket__button">Использовать купон на 20%</button>
+    </div>
 
+    <script src="assets/index.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,42 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    max-width: 200px;
+}
+h2 {
+    margin: 0;
+}
+.basket__title,
+.basket__container {
+    margin-left: 100px;
+}
+.basket__product {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 300px 500px 200px;
+    grid-template-rows: 1fr;
+    border: 1px solid black;
+}
+.basket__foto {
+    margin-right: 20px;
+}
+.basket__description {
+    margin-left: 50px;
+}
+.description {
+    margin: auto 0;
+}
+.basket__price {
+    margin: auto;
+    color: blue;
+    font-weight: 700;
+    font-size: 24px;
+}
+.basket__button {
+    margin: 50px 0 100px 0;
+    height: 50px;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    padding: 0 20px;
+}
